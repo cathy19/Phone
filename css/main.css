@@ -1,0 +1,272 @@
+/*
+* @Author: cathy.chen
+* @Date:   2017-06-29 13:56:26
+* @Last Modified by:   cathy.chen
+* @Last Modified time: 2017-07-06 10:38:39
+*/
+
+body{
+	font-family: "Microsoft YaHei";
+}
+/*nav*/
+.navbar-default {
+	background-color: #fafafa;
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+	height: 60px;
+}
+.navbar-brand {
+	margin-top: -4px;
+}
+.navbar-right{
+	margin-right: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	height: 60px;
+	width: 100px;
+	color:#696969;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+.navbar-nav button {
+    background: #000;
+    width: 90px;
+    height: 40px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 8px;
+}
+.navbar-nav button>a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar-toggle {
+	margin-top: 12px;
+}
+.nav>li {
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #FF0000;
+}
+
+.navbar-collapse.collapse.in {
+    background-color: #fafafa;
+}
+/*screen_1*/
+#screen_1{
+	margin-top: 60px;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	background: url("../img/bg-screen-1.png");
+}
+.screen_1{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.02);
+
+}
+#screen_1 .row{
+	padding: 80px 0;
+}
+#screen_1 span{
+	color: #FF0000;
+	margin-right: 10px;
+}
+#screen_1 h1{
+	margin-top:20px;
+	font-size: 42px;
+}
+#screen_1 img {
+	display: inline-block;
+	margin-top:90px;
+}
+
+/*screen_2*/
+#screen_2{
+	width: 100%;
+	color: #FF0000;
+	background-color: #fafafa;
+	background-size: cover;
+	text-align: center;
+}
+#screen_2 h1{
+	margin-top: 82px;
+	font-size: 42px;
+}
+#screen_2 p{
+	margin:50px 0px 30px 0px;
+	color: #696969;
+	font-size: 16px;
+}
+#screen_2 img{
+	display: inline-block;
+	margin-bottom: 10px;
+
+}
+
+/*screen_3*/ 
+#screen_3{
+	width: 100%;
+	background-color:#A71316;
+	background-size: cover;
+	color: #fff;
+
+}
+#screen_3 h1{
+	margin-top: 82px;
+	font-size: 34px;
+	text-align: center;
+}
+#screen_3 p{
+	font-size:16px;
+	margin: 82px 0px;
+	text-align: center;
+}
+.screen3-text{
+	width: 306px;
+	height: 266px;
+	margin:150px auto;
+}
+.left{
+	width: 142px;
+	float: left;
+}
+.left div{
+	height: 130px;
+	margin-top:12px;
+	border:1px solid #AAAAAA;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
+	transition: all 0.8s;
+}
+.left div:hover{
+	transform: scale(1.1,1.1);
+	border:1px solid #fff;
+}
+.left span{
+	font-size: 45px;
+}
+.right{
+	width: 142px;
+	float: right;
+}
+.right div{
+	height: 130px;
+	margin-top:12px;
+	border:1px solid #AAAAAA;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
+	transition: all 0.8s;
+}
+.right div:hover{
+	transform: scale(1.1,1.1);
+	border:1px solid #fff;
+}
+.right span{
+	font-size: 45px;
+}
+
+#screen_3 img{
+	margin:100px auto;
+
+}
+/*screen_4*/
+#screen_4{
+	width: 100%;
+	background-color: #fff;
+}
+.screen4-text-1{
+	text-align: center;
+	font-size: 42px;
+	margin-top: 82px;
+	color: #FF0000;
+}
+.screen4-text-2{
+	text-align: center;
+	font-size: 16px;
+	color: #696969;
+	margin:90px 0px;
+}
+#screen_4 img{
+	margin:0 auto;
+}
+.screen4-text-3{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.screen4-text-3 span{
+	font-size: 12px;
+	color: #696969;
+}
+/*screen_5*/
+#screen_5{
+	width: 100%;
+	background-color:#d9dde1;
+}
+.screen5-text-1{
+	text-align: center;
+	font-size: 42px;
+	margin-top: 82px;
+	color: #FF0000;
+}
+.screen5-text-2{
+	text-align: center;
+	font-size: 16px;
+	color: #09090a;
+	margin:90px 0 120px 0;
+}
+#screen_5 img{
+	display: inline-block;
+	margin-top: 30px;
+}
+/*screen_6*/
+#screen_6{
+	height: 320px;
+	width: 100%;
+	background:url(../img/bg-screen-buy.png);
+}
+#screen_6 p{
+	text-align: center;
+	margin:120px 0px;
+}
+#screen_6 .btn{
+	padding:30px;
+	width: 242px;
+	height: 82px;
+	background-color:#FF0000;
+	color: #fff;
+	font-size: 18px;
+	border:none;
+	transition: all 0.8s;
+}
+
+#screen_6 .btn:hover{
+	transform: translate(0px, -5px);
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #07111b;
+	color: #fff;
+}
+footer p{
+	text-align: center;
+	font-size: 10px;
+	line-height: 50px;
+}
+
+
+
+
+
+
